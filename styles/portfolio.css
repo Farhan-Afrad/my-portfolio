@@ -11,10 +11,13 @@ section{
     margin-top: 130px;
 }
 /* header and nav bar styles */
+.header{
+    padding-top: 50PX;
+}
 .nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px 50px;
+    margin: 0px 200px 50px;
 }
 .nav-title{
     font-weight: 800;
@@ -182,4 +185,40 @@ nav ul li{
 .resume-download-button {
     margin-top: 20px;
     text-align: center;
+}
+
+/* contact styles */
+footer{
+    padding:130px 200px;
+    background: #FFF8F3;
+    display: flex;
+    gap: 110PX;
+    margin-top: 113px;
+}
+.footer-description{
+    margin-bottom: 30px;
+    color: #474747;
+}
+.social a{
+    text-decoration: none;
+}
+a:nth-child(even){
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+.social{
+    width: 52%;
+}
+.message input[type="text"],input[type="email"],textarea{
+    width: 100%;
+    border-radius: 5PX;
+    border: none;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+}
+.footer-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 25px; 
 }
