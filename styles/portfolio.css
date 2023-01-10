@@ -7,6 +7,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+section{
+    margin-top: 130px;
+}
 /* header and nav bar styles */
 .nav{
     display: flex;
@@ -77,11 +80,11 @@ nav ul li{
 .about{
     text-align: center;
     background: #FFF8F3;
-    margin-top: 130px;
     border-radius: 10px;
     padding: 130px 150px;
 }
 .section-title{
+    text-align: center;
     font-size: 35px;
     color:#181818;
     margin-bottom: 30px;
@@ -109,8 +112,6 @@ nav ul li{
 
 .what-i-do{
     text-align: center;
-    margin-top: 130px;
-
 }
 .what-i-do .section-description{
     text-align: center;
@@ -141,4 +142,44 @@ nav ul li{
 }
 .skill-description{
     color: #757575;
+}
+
+/* resume summary styles */
+
+.resume-content{
+    margin-top: 63px;
+    display: flex;
+    gap: 26px;
+}
+.resume-content-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.resume-item .title{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.resume-item .subtitle{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.resume-item .description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 65px;
+}
+.resume-download-button {
+    margin-top: 20px;
+    text-align: center;
 }
